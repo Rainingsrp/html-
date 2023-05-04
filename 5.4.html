@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header, .footer{
+            background-color: grey;
+            color: white;
+            padding: 15px;
+        }
+
+        .column{
+            float: left;
+            padding: 15px;
+        }
+
+        .menu{
+            width: 25%;
+        }
+
+        .content{
+            width: 75%;
+            float: inherit;
+        }
+
+        .menu li{
+            list-style-type: none;
+            padding: 12px;
+            margin-bottom: 8px;
+            background-color: #33b5e5;
+            color: #ffffff; 
+            text-align: center;
+        }
+
+        .flexbox{
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Chania</h1>
+    </div>
+
+    <div class="flexbox">
+       
+        <div class="column menu">
+            <ul>
+                <li>The Flight</li>
+                <li>The City</li>
+                <li>The Island</li>
+                <li>The food</li>
+            </ul>
+        </div>
+
+        <div class="column content">
+            <h1>The city</h1>
+            <p>Chania is the capital of the Chania region on the island of Crete.</p>
+        </div>
+
+       
+    </div>
+
+    <div class="footer">
+        <p>Footer Text</p>
+    </div>
+</body>
+</html>

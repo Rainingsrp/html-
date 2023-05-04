@@ -38,13 +38,48 @@
         .flexbox{
             display: flex;
         }
+
+        #map ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        #map ul li{
+            float: left;
+        }
+        #map ul li a{
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover{
+            background-color: #111;
+        }
+
+        .active{
+            background-color: red;
+        }
     </style>
 </head>
+
 <body>
     <div class="header">
         <h1>Chania</h1>
     </div>
 
+    <div id="map">
+        <ul>
+            <li><a href="" class="active">Home</a></li>
+            <li><a href="">News</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">About</a></li>
+        </ul>
+    </div>
     <div class="flexbox">
        
         <div class="column menu">
